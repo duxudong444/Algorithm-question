@@ -1,5 +1,7 @@
 package dxd.title;
 
+import dxd.usedClass.TreeNode;
+
 /**
  * @author: Xudong Du
  * @Date: Create in 22:59 2021/8/24
@@ -8,5 +10,26 @@ package dxd.title;
  **/
 
 public class Title8 {
+    public TreeNode getNext(TreeNode pNode){
+        if(pNode == null) return null;
+
+        if(pNode.right != null){
+            TreeNode rNode = pNode.right;
+            while (rNode.left != null){
+                rNode = rNode.left;
+            }
+            return rNode;
+        }else{
+            while (pNode.parent != null){
+                TreeNode parentNode = pNode.parent;
+                if(parentNode.left == pNode){
+                    return parentNode;
+                }
+                pNode = pNode.parent;
+            }
+        }
+        return null;
+
+    }
 
 }
