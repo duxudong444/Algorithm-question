@@ -9,7 +9,7 @@ import dxd.usedClass.TreeNode;
  * 给定一个二叉树和其中的一个节点，如何找出中序遍历序列的下一个节点？。注意，树中的节点不仅包含左右子节点，同时包含指向父节点的指针。
  **/
 
-public class Title8 {
+public class Title08 {
     public TreeNode getNext(TreeNode pNode){
         if(pNode == null) return null;
 

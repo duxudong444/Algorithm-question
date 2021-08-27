@@ -9,7 +9,7 @@ package dxd.title;
  * Êä³ö£º"We%20are%20happy."
  **/
 
-public class Title5 {
+public class Title05 {
     public static String replaceSpace(String s) {
         if(s.length() == 0) return null;
         StringBuilder sb = new StringBuilder();

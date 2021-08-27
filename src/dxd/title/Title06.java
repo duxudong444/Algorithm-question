@@ -16,7 +16,7 @@ import java.util.Stack;
  * Êä³ö£º[2,3,1]
  **/
 
-public class Title6 {
+public class Title06 {
 
     public static int[] reversePrint(ListNode head) {
         Stack<ListNode> stack = new Stack<ListNode>();

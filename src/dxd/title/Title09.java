@@ -14,11 +14,11 @@ import java.util.Stack;
  * Êä³ö£º[null,null,3,-1]
  **/
 
-public class Title9 {
+public class Title09 {
     Stack<Integer> stack1;
     Stack<Integer> stack2;
 
-    public Title9() {
+    public Title09() {
         stack1 = new Stack<Integer>();
         stack2 = new Stack<Integer>();
     }
@@ -43,7 +43,7 @@ public class Title9 {
     }
 
     public static void main(String[] args) {
-        Title9 temp = new Title9();
+        Title09 temp = new Title09();
 //        temp.appendTail(10);
 //        temp.appendTail(12);
         int a = temp.deleteHead();

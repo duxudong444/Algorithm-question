@@ -11,7 +11,7 @@ package dxd.title;
  * 输入[2,3,1,0,2,5,3]输出2或者3即可
  **/
 
-public class Title1 {
+public class Title01 {
     public static int findNumber(int[] nums){
         if(nums.length == 0){return -1;}
 

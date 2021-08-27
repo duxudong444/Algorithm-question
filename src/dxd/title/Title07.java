@@ -16,7 +16,7 @@ import java.util.Arrays;
  * Output: [3,9,20,null,null,15,7]
  **/
 
-public class Title7 {
+public class Title07 {
     public static TreeNode buildTree(int[] preorder, int[] inorder) {
         if(preorder.length == 0) return null;
 

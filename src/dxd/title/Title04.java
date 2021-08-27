@@ -16,7 +16,7 @@ package dxd.title;
  *
  **/
 
-public class Title4 {
+public class Title04 {
     public static boolean findNumberIn2DArray(int[][] matrix, int target) {
         if(matrix.length == 0){
             return false;
